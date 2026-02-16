@@ -42,3 +42,11 @@ We shall take Pinterest as an example.
 Be careful with the quotation marks and the spaces (including the leading space) in ` - site:Pinterest`!
 
 Don't forget to save the new script!
+
+# Note
+
+There are many Amazon local domains. The workflow currently (if chosen in the configuration) blocks `Amazon.com` and `Amazon.co.uk`. If your local Amazon domain is different you can exclude it by editing this line in the `Run Script` object in the workflow:
+
+`[ "${exAmazon}" -eq 1 ] && exsite+=' -site:Amazon.com -site:Amazon.co.uk'`
+
+Simply substitute your local Amazon domain for `Amazon.co.uk` and save the revised script.
