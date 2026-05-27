@@ -5,8 +5,6 @@ Basic DuckDuckGo search in Firefox using optional exclusions
 
 The purpose of this workflow is to allow a search of DuckDuckGo in Firefox using URL parameters. In the workflow configuration you can also choose whether or not to exclude from the search Amazon, eBay, Facebook and/or YouTube (by default all are excluded). The search results will open in a Firefox private window. (If you change the default exclusions don't forget to save the changed configuration!)
 
-**Note**: The exclusion for eBay is specifically for `eBay.co.uk` so you will need to change that in the workflow configuration if you need a more specific URL.
-
 See [here](https://duckduckgo.com/duckduckgo-help-pages/settings/params) for DuckDuckGo search parameters. This workflow uses (in the workflow configuration):
 
 - `&kp=-2` to turn off safe search
@@ -16,6 +14,10 @@ See [here](https://duckduckgo.com/duckduckgo-help-pages/settings/params) for Duc
 - `&kz-1` to turn off open instant answers.
 
 You can choose in the configuration to concentrate the search results on the UK region or all regions.
+
+# Use of AI in search results
+
+You can choose, with the checkbox in the workflow configuration, whether or not to allow Artificial Intelligence in the search results. The default is to disable it—by [using the noai.duckduckgo.com domain](https://duckduckgo.com/duckduckgo-help-pages/ai-features/about-noaiduckduckgocom).
 
 # Usage
 
